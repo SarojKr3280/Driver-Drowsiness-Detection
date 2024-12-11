@@ -43,8 +43,8 @@ In summary, this code combines yawning and non-yawning face images with open and
 ![image](https://github.com/Stan-Batman/DriverDrowsiness_DL/assets/31034647/3f7b1d74-6b57-4d85-bb1a-afe28dd9645d)
 
 The proposed driver drowsiness detection system was trained and evaluated on two datasets: YawDD and CEW.
-The maximum testing accuracy achieved on the YawDD dataset was 97.06%, and the maximum training accuracy achieved was 97.62%. The minimum training loss was
-0.0628, and the minimum testing loss was 0.0755. The trained model was also evaluated on test images and the accuracy was found to be 96.02% and the loss was 0.1072.
+The maximum testing accuracy achieved on the YawDD dataset was 95.33%, and the maximum training accuracy achieved was 96.88%. The minimum training loss was
+0.0777 and testing loss of 0.123. The trained model was also evaluated on test images and the accuracy was found to be 94.46% and the loss was 0.1230.
 
 # Conclusion
 1. Accuracy ( Training vs Testing) Plot
