@@ -19,7 +19,7 @@ The first dataset used is the YawDD Video dataset, which contains videos recorde
 The second dataset used is the Closed Eyes in the Wild (CEW) dataset. This dataset contains 2423 subjects, with 1192 people having closed eyes and 1231 people with open eyes. Images of open eyes were taken from the Labeled Face in the Wild dataset.
 
 # CODE File
-Final_Project_Driver_Drowsiness_Detection.ipynb
+Driver_Drowsiness_Detection_using_CNN.ipynb
 
 # Implementation
 The provided code demonstrates the implementation of a driver drowsiness detection system. It utilizes image processing techniques and machine learning to detect signs of drowsiness in drivers. The code imports necessary libraries such as OpenCV, TensorFlow, and Keras for image processing, machine learning, and neural network implementation. The code also downloads datasets from Kaggle related to driver drowsiness detection.
@@ -40,7 +40,7 @@ This code performs driver drowsiness detection using a deep learning model. Here
 In summary, this code combines yawning and non-yawning face images with open and closed eye images to create a dataset for driver drowsiness detection. It then trains a deep learning model on this dataset using data augmentation techniques.
 
 # Results
-![image](https://github.com/Stan-Batman/DriverDrowsiness_DL/assets/31034647/3f7b1d74-6b57-4d85-bb1a-afe28dd9645d)
+![image](https://github.com/SarojKr3280/Driver-Drowsiness-Detection/blob/main/Result.png)
 
 The proposed driver drowsiness detection system was trained and evaluated on two datasets: YawDD and CEW.
 The maximum testing accuracy achieved on the YawDD dataset was 95.33%, and the maximum training accuracy achieved was 96.88%. The minimum training loss was
@@ -49,11 +49,11 @@ The maximum testing accuracy achieved on the YawDD dataset was 95.33%, and the m
 # Conclusion
 1. Accuracy ( Training vs Testing) Plot
 
-![image](https://github.com/Stan-Batman/DriverDrowsiness_DL/assets/31034647/0646f298-be28-48a5-8120-39980e461b5d)
+![image](https://github.com/SarojKr3280/Driver-Drowsiness-Detection/blob/main/Accuracy%20(%20Training%20vs%20Testing)%20Plot.png)
 
 2. Loss ( Training vs Testing) Plot
 
-![image](https://github.com/Stan-Batman/DriverDrowsiness_DL/assets/31034647/52c6c9ec-f81a-491f-974e-d2e65dc4db7a)
+![image](https://github.com/SarojKr3280/Driver-Drowsiness-Detection/blob/main/Loss%20(%20Training%20vs%20Testing)%20Plot.png)
 
 
 
@@ -71,9 +71,6 @@ The maximum testing accuracy achieved on the YawDD dataset was 95.33%, and the m
 10. tensorflow
 11. keras
 12. tabulate
-13. playsound
-14. google.colab
-15. base64
-16. visualkeras
+
 
 Please make sure to install these dependencies before running the code to ensure that all the required packages are available.
